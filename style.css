@@ -21,7 +21,8 @@ img
 nav
 {
     float: right;
-    font-size: 20px
+    font-size: 20px;
+    text-align: center;
 }
 .divideBox
 {
