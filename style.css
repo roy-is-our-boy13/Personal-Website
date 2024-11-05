@@ -21,6 +21,7 @@ img
 nav
 {
     float: right;
+    font-size: 20px
 }
 .divideBox
 {
@@ -30,6 +31,15 @@ nav
     padding: 7px;
 }
 
+.divideSquare
+{
+    margin: auto;
+    border: 1px solid black;
+    background-color: rgb(242, 244, 238);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 1000px;
+}
 .paragraph
 {
     margin: auto;
@@ -44,7 +54,6 @@ nav
 {
 
 }
-
 .bibleVerse
 {
     font-family: bold;
