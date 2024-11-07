@@ -2,6 +2,12 @@ body
 {
     background-color: silver !important; 
 }
+ul li 
+{
+    font-weight: bolder;
+    font-size: 20px;
+
+}
 .headerTitleName
 {
     font-size: 51px;
