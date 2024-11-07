@@ -1,6 +1,6 @@
 body 
 {
-    background-color: silver; 
+    background-color: silver !important; 
 }
 .headerTitleName
 {
@@ -8,11 +8,31 @@ body
     font-weight: bold;
     margin-left: 40px;
 }
+.gridContainer
+{
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    gap: 20px;
+    padding: 20px;
+}
+.pictureFrame
+{
+    background-color: #e90c0cb6 !important;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid #170202 !important;
+}
 img
 {
     width: 200px;
     height: 200px;
-    border: 5px solid #170202;
+    border: 5px solid #170202 !important;
+}
+.imageSize
+{
+    width: 160px;
+    height: 160px;
 }
 .imageRight
 {
@@ -30,13 +50,13 @@ nav
     font-size: 20px;
     text-align: center;
     margin-right: 50px;
-    
+
 }
 .divideBox
 {
     margin: auto;
-    border: 4px solid black;
-    background-color: rgb(204, 255, 0);
+    border: 4px solid black !important;
+    background-color: rgb(204, 255, 0) !important;
     padding: 7px;
 }
 
@@ -53,9 +73,9 @@ nav
 {
     margin: auto;
     border-radius: 5px;
-    background-color: rgb(119, 214, 23);
+    background-color: rgb(119, 214, 23) !important;
     width: 1100px;
-    border: 1px solid black;
+    border: 4px solid black;
     padding: 20px;
     float: center;
 }
@@ -81,7 +101,8 @@ footer
 {
     text-align: center;
     padding: 10px;
-    background-color: rgb(204, 255, 0);
+    background-color: rgb(204, 255, 0) !important;;
+    border: 4px solid black !important;
 }
 .textSize
 {
@@ -99,3 +120,16 @@ footer
     margin-left: auto;
     margin-right: auto
 }
+input[type=submit]
+{
+    background-color: rgb(142, 158, 175) !important;
+    border: 9;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+/* For a screen the size of an iPhone or an Android phone.*/
+@media (max-width: 767px)
+  {
+   
+  }
