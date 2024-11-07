@@ -2,6 +2,12 @@ body
 {
     background-color: silver; 
 }
+.headerTitleName
+{
+    font-size: 51px;
+    font-weight: bold;
+    margin-left: 40px;
+}
 img
 {
     width: 200px;
@@ -23,6 +29,8 @@ nav
     float: right;
     font-size: 20px;
     text-align: center;
+    margin-right: 50px;
+    
 }
 .divideBox
 {
