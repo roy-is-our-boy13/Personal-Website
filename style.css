@@ -136,6 +136,30 @@ input[type=submit]
 
 /* For a screen the size of an iPhone or an Android phone.*/
 @media (max-width: 767px)
-  {
-   
-  }
+{
+    .paragraph
+    {
+        width: 340px;
+    }
+
+    .divideSquare
+    {
+        width: 320px;
+    }
+    .gridContainer
+    {
+        grid-template-columns: 230px;
+    }
+    .formBox
+    {
+        width: 200px;
+    }
+    ul li 
+    {
+        font-size: 15px;
+    }
+    #emailMessage
+    {
+        width: 100%; 
+    }
+}
