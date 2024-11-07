@@ -75,3 +75,19 @@ footer
     padding: 10px;
     background-color: rgb(204, 255, 0);
 }
+.textSize
+{
+    font-size: 24px;
+}
+.formBox
+{
+    position: relative;
+    background-color: rgb(231, 226, 226);
+    border: solid black 5px;
+    border-radius: 9%;
+    margin: 2rem;
+    padding: 1rem;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto
+}
