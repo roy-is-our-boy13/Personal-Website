@@ -30,13 +30,13 @@ ul li
 .gridAbout
 {
     display: grid !important;
-    gap: 12px;
-    padding: 6px;
+    gap: 16px;
+    padding: 5px;
 }
 .gridEducation
 {
     display: grid !important;
-    grid-template-columns: 239px 271px;
+    grid-template-columns: 239px 241px;
     gap: 492px;
 }
 .gridSkills
@@ -60,6 +60,13 @@ img
     border: 5px solid #170202 !important;
 }
 .sjsuImage
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-left: 10px;
+}
+.profileImage
 {
     width: 200px;
     height: 200px;
@@ -96,9 +103,17 @@ nav
     margin-right: 50px;
 
 }
-.navigationGrid
+.gridAbout2
 {
-    
+    display: grid !important;
+    grid-template-columns: 739px 111px;
+    gap: 222px;
+}
+.gridHomePage
+{
+    display: grid !important;
+    grid-template-columns: 739px 111px;
+    gap: 222px;
 }
 .pSizing
 {
@@ -192,6 +207,13 @@ input[type=submit]
     height: 12px;
     border: 1px solid rgb(242, 244, 238)!important;
 }
+button
+{
+    background-color: rgb(142, 158, 175) !important;
+    border: 9;
+    padding: 16px 32px;
+    cursor: pointer;
+}
 /* For a screen the size of an iPhone or an Android phone.*/
 @media (max-width: 767px)
 {
@@ -218,7 +240,7 @@ input[type=submit]
     #emailMessage
     {
         width: 100%; 
-    }
+    } 
     .sjsuImage
     {
         width: 100px;
@@ -247,6 +269,17 @@ input[type=submit]
         gap: 1.05px;
     }
     .codingImage
+    {
+        width: 100px;
+        height: 100px;
+    }
+    .gridAbout2
+    {
+        grid-template-columns: 239px 71px;
+        gap: 30px;
+    }
+
+    .profileImage
     {
         width: 100px;
         height: 100px;
