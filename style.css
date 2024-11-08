@@ -134,6 +134,7 @@ input[type=submit]
     cursor: pointer;
 }
 
+
 /* For a screen the size of an iPhone or an Android phone.*/
 @media (max-width: 767px)
 {
