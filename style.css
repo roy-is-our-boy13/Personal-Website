@@ -7,7 +7,6 @@ ul li
 {
     font-weight: bolder;
     font-size: 20px;
-
 }
 .headerTitleName
 {
@@ -17,14 +16,32 @@ ul li
 }
 .gridContainer
 {
-    display: grid;
+    display: grid !important;
     grid-template-columns: 230px 230px 230px 230px;
     gap: 20px;
     padding: 20px;
 }
+.girdPortfolio
+{
+    display: grid !important;
+    gap: 16px;
+    padding: 5px;
+}
+.gridAbout
+{
+    display: grid !important;
+    gap: 16px;
+    padding: 5px;
+}
+.gridEducation
+{
+    display: grid !important;
+    grid-template-columns: 239px 271px;
+    gap: 492px;
+}
 .pictureFrame
 {
-    background-color: #e90c0cb6 !important;
+    background-color: #0c2ae9b6 !important;
     padding: 30px;
     text-align: center;
     border-radius: 10px;
@@ -68,7 +85,7 @@ nav
 }
 .pSizing
 {
-    font-size: 22px;
+    font-size: 20px;
 }
 .divideBox
 {
@@ -150,8 +167,8 @@ input[type=submit]
 }
 .icon
 {
-    width: calc(3% - 12px);
-    height: calc(3% - 12px);
+    width: 12px;
+    height: 12px;
     border: 1px solid rgb(242, 244, 238)!important;
 }
 /* For a screen the size of an iPhone or an Android phone.*/
@@ -193,5 +210,10 @@ input[type=submit]
     .pSizing
     {
         font-size: 16px;
+    }
+    .gridEducation
+    {
+        grid-template-columns: 230px 90px;
+        gap: 1.05px;
     }
 }
