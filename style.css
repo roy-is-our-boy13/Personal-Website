@@ -39,6 +39,12 @@ ul li
     grid-template-columns: 239px 271px;
     gap: 492px;
 }
+.gridSkills
+{
+    display: grid !important;
+    grid-template-columns: 239px 271px;
+    gap: 492px;
+}
 .pictureFrame
 {
     background-color: #0c2ae9b6 !important;
@@ -54,6 +60,13 @@ img
     border: 5px solid #170202 !important;
 }
 .sjsuImage
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-left: 10px;
+}
+.codingImage
 {
     width: 200px;
     height: 200px;
@@ -82,6 +95,10 @@ nav
     text-align: center;
     margin-right: 50px;
 
+}
+.navigationGrid
+{
+    
 }
 .pSizing
 {
@@ -123,8 +140,12 @@ nav
 .header1
 {
     border-bottom: 1px solid #191616;
-    font-size: 30px;
+   font-size: 30px;
 
+}
+.partOfTheHeader
+{
+    font-size: 30px;
 }
 .bibleVerse
 {
@@ -215,5 +236,19 @@ input[type=submit]
     {
         grid-template-columns: 230px 90px;
         gap: 1.05px;
+    }
+    .partOfTheHeader
+    {
+        font-size: 15px;
+    }
+    .gridSkills
+    {
+        grid-template-columns: 230px 90px;
+        gap: 1.05px;
+    }
+    .codingImage
+    {
+        width: 100px;
+        height: 100px;
     }
 }
